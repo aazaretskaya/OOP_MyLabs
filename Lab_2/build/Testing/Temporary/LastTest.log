@@ -1,0 +1,133 @@
+Start testing: Sep 26 00:39 MSK
+----------------------------------------------------------
+1/1 Testing: MoneyTests
+1/1 Test: MoneyTests
+Command: "/Users/anastasia/MAI/OOP/Lab_2/build/MoneyTests"
+Directory: /Users/anastasia/MAI/OOP/Lab_2/build
+"MoneyTests" start time: Sep 26 00:39 MSK
+Output:
+----------------------------------------------------------
+[==========] Running 18 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 18 tests from MoneyTest
+[ RUN      ] MoneyTest.DefaultConstructor
+[       OK ] MoneyTest.DefaultConstructor (0 ms)
+[ RUN      ] MoneyTest.StringConstructor
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:25: Failure
+Expected equality of these values:
+  result
+    Which is: "9876543210987654321"
+  "12345678901234567890"
+[  FAILED  ] MoneyTest.StringConstructor (0 ms)
+[ RUN      ] MoneyTest.CopyConstructor
+[       OK ] MoneyTest.CopyConstructor (0 ms)
+[ RUN      ] MoneyTest.MoveConstructor
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:49: Failure
+Expected equality of these values:
+  moved.toString()
+    Which is: "9876543210987654321"
+  "12345678901234567890"
+[  FAILED  ] MoneyTest.MoveConstructor (0 ms)
+[ RUN      ] MoneyTest.CopyAssignmentOperator
+[       OK ] MoneyTest.CopyAssignmentOperator (0 ms)
+[ RUN      ] MoneyTest.MoveAssignmentOperator
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:75: Failure
+Expected equality of these values:
+  moved.toString()
+    Which is: "9876543210987654321"
+  "12345678901234567890"
+[  FAILED  ] MoneyTest.MoveAssignmentOperator (0 ms)
+[ RUN      ] MoneyTest.AdditionOperator
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:88: Failure
+Expected equality of these values:
+  sum.toString()
+    Which is: "11111111101111111110"
+  "111111111011111111100"
+[  FAILED  ] MoneyTest.AdditionOperator (0 ms)
+[ RUN      ] MoneyTest.SubtractionOperator
+unknown file: Failure
+C++ exception with description "Negative result not allowed" thrown in the test body.
+[  FAILED  ] MoneyTest.SubtractionOperator (0 ms)
+[ RUN      ] MoneyTest.AdditionAssignmentOperator
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:114: Failure
+Expected equality of these values:
+  m1.toString()
+    Which is: "11111111101111111110"
+  "111111111011111111100"
+[  FAILED  ] MoneyTest.AdditionAssignmentOperator (0 ms)
+[ RUN      ] MoneyTest.SubtractionAssignmentOperator
+unknown file: Failure
+C++ exception with description "Negative result not allowed" thrown in the test body.
+[  FAILED  ] MoneyTest.SubtractionAssignmentOperator (0 ms)
+[ RUN      ] MoneyTest.EqualityOperator
+[       OK ] MoneyTest.EqualityOperator (0 ms)
+[ RUN      ] MoneyTest.InequalityOperator
+[       OK ] MoneyTest.InequalityOperator (0 ms)
+[ RUN      ] MoneyTest.LessThanOperator
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:166: Failure
+Value of: isLess
+  Actual: false
+Expected: true
+[  FAILED  ] MoneyTest.LessThanOperator (0 ms)
+[ RUN      ] MoneyTest.GreaterThanOperator
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:179: Failure
+Value of: isGreater
+  Actual: false
+Expected: true
+[  FAILED  ] MoneyTest.GreaterThanOperator (0 ms)
+[ RUN      ] MoneyTest.LessThanOrEqualOperator
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:192: Failure
+Value of: isLessOrEqual
+  Actual: false
+Expected: true
+[  FAILED  ] MoneyTest.LessThanOrEqualOperator (0 ms)
+[ RUN      ] MoneyTest.GreaterThanOrEqualOperator
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:205: Failure
+Value of: isGreaterOrEqual
+  Actual: false
+Expected: true
+[  FAILED  ] MoneyTest.GreaterThanOrEqualOperator (0 ms)
+[ RUN      ] MoneyTest.SetAmountMethod
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:217: Failure
+Expected equality of these values:
+  money.toString()
+    Which is: "9876543210987654321"
+  "12345678901234567890"
+[  FAILED  ] MoneyTest.SetAmountMethod (0 ms)
+[ RUN      ] MoneyTest.ToStringMethod
+/Users/anastasia/MAI/OOP/Lab_2/tests/MoneyTest.cpp:229: Failure
+Expected equality of these values:
+  result
+    Which is: "9876543210987654321"
+  "12345678901234567890"
+[  FAILED  ] MoneyTest.ToStringMethod (0 ms)
+[----------] 18 tests from MoneyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 13 tests, listed below:
+[  FAILED  ] MoneyTest.StringConstructor
+[  FAILED  ] MoneyTest.MoveConstructor
+[  FAILED  ] MoneyTest.MoveAssignmentOperator
+[  FAILED  ] MoneyTest.AdditionOperator
+[  FAILED  ] MoneyTest.SubtractionOperator
+[  FAILED  ] MoneyTest.AdditionAssignmentOperator
+[  FAILED  ] MoneyTest.SubtractionAssignmentOperator
+[  FAILED  ] MoneyTest.LessThanOperator
+[  FAILED  ] MoneyTest.GreaterThanOperator
+[  FAILED  ] MoneyTest.LessThanOrEqualOperator
+[  FAILED  ] MoneyTest.GreaterThanOrEqualOperator
+[  FAILED  ] MoneyTest.SetAmountMethod
+[  FAILED  ] MoneyTest.ToStringMethod
+
+13 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MoneyTests" end time: Sep 26 00:39 MSK
+"MoneyTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 26 00:39 MSK

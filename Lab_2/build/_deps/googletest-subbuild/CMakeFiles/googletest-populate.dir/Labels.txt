@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/Users/anastasia/MAI/OOP/Lab_2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule
