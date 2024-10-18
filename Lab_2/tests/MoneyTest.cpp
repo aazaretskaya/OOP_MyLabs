@@ -22,7 +22,7 @@ TEST(MoneyTest, StringConstructor) {
     ss1 << m1;
     EXPECT_EQ(ss1.str(), "123.45");
 
-    Money m2("0012345");
+    Money m2("00012345");
     std::stringstream ss2;
     ss2 << m2;
     EXPECT_EQ(ss2.str(), "123.45");
