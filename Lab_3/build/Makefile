@@ -380,6 +380,30 @@ tests/Trapezoid_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.s
 .PHONY : tests/Trapezoid_test.cpp.s
 
+tests/common_test.o: tests/common_test.cpp.o
+.PHONY : tests/common_test.o
+
+# target to build an object file
+tests/common_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/common_test.cpp.o
+.PHONY : tests/common_test.cpp.o
+
+tests/common_test.i: tests/common_test.cpp.i
+.PHONY : tests/common_test.i
+
+# target to preprocess a source file
+tests/common_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/common_test.cpp.i
+.PHONY : tests/common_test.cpp.i
+
+tests/common_test.s: tests/common_test.cpp.s
+.PHONY : tests/common_test.s
+
+# target to generate assembly for a file
+tests/common_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/common_test.cpp.s
+.PHONY : tests/common_test.cpp.s
+
 tests/main_test.o: tests/main_test.cpp.o
 .PHONY : tests/main_test.o
 
@@ -440,6 +464,9 @@ help:
 	@echo "... tests/Trapezoid_test.o"
 	@echo "... tests/Trapezoid_test.i"
 	@echo "... tests/Trapezoid_test.s"
+	@echo "... tests/common_test.o"
+	@echo "... tests/common_test.i"
+	@echo "... tests/common_test.s"
 	@echo "... tests/main_test.o"
 	@echo "... tests/main_test.i"
 	@echo "... tests/main_test.s"

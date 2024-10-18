@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp" "CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o" "gcc" "CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o.d"
   "/Users/anastasia/MAI/OOP/Lab_3/tests/Rhombus_test.cpp" "CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o" "gcc" "CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o.d"
   "/Users/anastasia/MAI/OOP/Lab_3/tests/Trapezoid_test.cpp" "CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o" "gcc" "CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o.d"
+  "/Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp" "CMakeFiles/tests.dir/tests/common_test.cpp.o" "gcc" "CMakeFiles/tests.dir/tests/common_test.cpp.o.d"
   "/Users/anastasia/MAI/OOP/Lab_3/tests/main_test.cpp" "CMakeFiles/tests.dir/tests/main_test.cpp.o" "gcc" "CMakeFiles/tests.dir/tests/main_test.cpp.o.d"
   )
 

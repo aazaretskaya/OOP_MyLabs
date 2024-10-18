@@ -2,10 +2,48 @@
 #include <cmath>
 
 Trapezoid::Trapezoid() {
-    // Инициализация массива вершин
     for (int i = 0; i < 4; ++i) {
         vertices[i] = {0.0, 0.0};
     }
+}
+
+Trapezoid::Trapezoid(const Trapezoid& other) {
+    for (int i = 0; i < 4; ++i) {
+        vertices[i] = other.vertices[i];
+    }
+}
+
+Trapezoid::Trapezoid(Trapezoid&& other) noexcept {
+    for (int i = 0; i < 4; ++i) {
+        vertices[i] = std::move(other.vertices[i]);
+    }
+}
+
+Trapezoid& Trapezoid::operator=(const Trapezoid& other) {
+    if (this != &other) {
+        for (int i = 0; i < 4; ++i) {
+            vertices[i] = other.vertices[i];
+        }
+    }
+    return *this;
+}
+
+Trapezoid& Trapezoid::operator=(Trapezoid&& other) noexcept {
+    if (this != &other) {
+        for (int i = 0; i < 4; ++i) {
+            vertices[i] = std::move(other.vertices[i]);
+        }
+    }
+    return *this;
+}
+
+bool Trapezoid::operator==(const Trapezoid& other) const {
+    for (int i = 0; i < 4; ++i) {
+        if (vertices[i] != other.vertices[i]) {
+            return false;
+        }
+    }
+    return true;
 }
 
 double Trapezoid::area() const {

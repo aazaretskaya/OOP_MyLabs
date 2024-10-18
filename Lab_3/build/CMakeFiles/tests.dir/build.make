@@ -83,10 +83,24 @@ CMakeFiles/tests.dir/tests/main_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/main_test.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/main_test.cpp -o CMakeFiles/tests.dir/tests/main_test.cpp.s
 
+CMakeFiles/tests.dir/tests/common_test.cpp.o: CMakeFiles/tests.dir/flags.make
+CMakeFiles/tests.dir/tests/common_test.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp
+CMakeFiles/tests.dir/tests/common_test.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/tests/common_test.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/common_test.cpp.o -MF CMakeFiles/tests.dir/tests/common_test.cpp.o.d -o CMakeFiles/tests.dir/tests/common_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp
+
+CMakeFiles/tests.dir/tests/common_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/common_test.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp > CMakeFiles/tests.dir/tests/common_test.cpp.i
+
+CMakeFiles/tests.dir/tests/common_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/common_test.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp -o CMakeFiles/tests.dir/tests/common_test.cpp.s
+
 CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp
 CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o -MF CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o.d -o CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp
 
 CMakeFiles/tests.dir/tests/Pentagon_test.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/tests.dir/tests/Pentagon_test.cpp.s: cmake_force
 CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/tests/Rhombus_test.cpp
 CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o -MF CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o.d -o CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/Rhombus_test.cpp
 
 CMakeFiles/tests.dir/tests/Rhombus_test.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/tests.dir/tests/Rhombus_test.cpp.s: cmake_force
 CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/tests/Trapezoid_test.cpp
 CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o -MF CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o.d -o CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/Trapezoid_test.cpp
 
 CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.s: cmake_force
 CMakeFiles/tests.dir/src/Trapezoid.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/Trapezoid.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/src/Trapezoid.cpp
 CMakeFiles/tests.dir/src/Trapezoid.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests.dir/src/Trapezoid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests.dir/src/Trapezoid.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Trapezoid.cpp.o -MF CMakeFiles/tests.dir/src/Trapezoid.cpp.o.d -o CMakeFiles/tests.dir/src/Trapezoid.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/src/Trapezoid.cpp
 
 CMakeFiles/tests.dir/src/Trapezoid.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/tests.dir/src/Trapezoid.cpp.s: cmake_force
 CMakeFiles/tests.dir/src/Rhombus.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/Rhombus.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/src/Rhombus.cpp
 CMakeFiles/tests.dir/src/Rhombus.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests.dir/src/Rhombus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tests.dir/src/Rhombus.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Rhombus.cpp.o -MF CMakeFiles/tests.dir/src/Rhombus.cpp.o.d -o CMakeFiles/tests.dir/src/Rhombus.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/src/Rhombus.cpp
 
 CMakeFiles/tests.dir/src/Rhombus.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/tests.dir/src/Rhombus.cpp.s: cmake_force
 CMakeFiles/tests.dir/src/Pentagon.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/Pentagon.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/src/Pentagon.cpp
 CMakeFiles/tests.dir/src/Pentagon.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tests.dir/src/Pentagon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tests.dir/src/Pentagon.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Pentagon.cpp.o -MF CMakeFiles/tests.dir/src/Pentagon.cpp.o.d -o CMakeFiles/tests.dir/src/Pentagon.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/src/Pentagon.cpp
 
 CMakeFiles/tests.dir/src/Pentagon.cpp.i: cmake_force
@@ -170,6 +184,7 @@ CMakeFiles/tests.dir/src/Pentagon.cpp.s: cmake_force
 # Object files for target tests
 tests_OBJECTS = \
 "CMakeFiles/tests.dir/tests/main_test.cpp.o" \
+"CMakeFiles/tests.dir/tests/common_test.cpp.o" \
 "CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o" \
 "CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o" \
 "CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o" \
@@ -181,6 +196,7 @@ tests_OBJECTS = \
 tests_EXTERNAL_OBJECTS =
 
 tests: CMakeFiles/tests.dir/tests/main_test.cpp.o
+tests: CMakeFiles/tests.dir/tests/common_test.cpp.o
 tests: CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o
 tests: CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o
 tests: CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o
@@ -192,7 +208,7 @@ tests: lib/libgtest.a
 tests: lib/libgtest_main.a
 tests: lib/libgtest.a
 tests: CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -2,10 +2,48 @@
 #include <cmath>
 
 Pentagon::Pentagon() {
-    // Инициализация массива вершин
     for (int i = 0; i < 5; ++i) {
         vertices[i] = {0.0, 0.0};
     }
+}
+
+Pentagon::Pentagon(const Pentagon& other) {
+    for (int i = 0; i < 5; ++i) {
+        vertices[i] = other.vertices[i];
+    }
+}
+
+Pentagon::Pentagon(Pentagon&& other) noexcept {
+    for (int i = 0; i < 5; ++i) {
+        vertices[i] = std::move(other.vertices[i]);
+    }
+}
+
+Pentagon& Pentagon::operator=(const Pentagon& other) {
+    if (this != &other) {
+        for (int i = 0; i < 5; ++i) {
+            vertices[i] = other.vertices[i];
+        }
+    }
+    return *this;
+}
+
+Pentagon& Pentagon::operator=(Pentagon&& other) noexcept {
+    if (this != &other) {
+        for (int i = 0; i < 5; ++i) {
+            vertices[i] = std::move(other.vertices[i]);
+        }
+    }
+    return *this;
+}
+
+bool Pentagon::operator==(const Pentagon& other) const {
+    for (int i = 0; i < 5; ++i) {
+        if (vertices[i] != other.vertices[i]) {
+            return false;
+        }
+    }
+    return true;
 }
 
 double Pentagon::area() const {

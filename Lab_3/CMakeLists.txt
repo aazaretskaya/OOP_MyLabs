@@ -15,6 +15,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 set(
     TEST_SOURCES
     tests/main_test.cpp
+    tests/common_test.cpp
     tests/Pentagon_test.cpp
     tests/Rhombus_test.cpp
     tests/Trapezoid_test.cpp
@@ -49,6 +50,7 @@ enable_testing()
 add_test(NAME Rhombus_test COMMAND tests)
 add_test(NAME Pentagon_test COMMAND tests)
 add_test(NAME Trapezoid_test COMMAND tests)
+add_test(NAME common_test COMMAND tests)
 add_test(NAME FigureTest COMMAND tests)
 
 

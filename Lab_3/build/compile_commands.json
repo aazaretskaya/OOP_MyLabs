@@ -7,6 +7,12 @@
 },
 {
   "directory": "/Users/anastasia/MAI/OOP/Lab_3/build",
+  "command": "/usr/bin/clang++  -I/Users/anastasia/MAI/OOP/Lab_3/include -I/Users/anastasia/MAI/OOP/Lab_3/src -isystem /Users/anastasia/MAI/OOP/Lab_3/googletest/googletest/include -isystem /Users/anastasia/MAI/OOP/Lab_3/googletest/googletest -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -Wall -pedantic -o CMakeFiles/tests.dir/tests/common_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp",
+  "file": "/Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp",
+  "output": "CMakeFiles/tests.dir/tests/common_test.cpp.o"
+},
+{
+  "directory": "/Users/anastasia/MAI/OOP/Lab_3/build",
   "command": "/usr/bin/clang++  -I/Users/anastasia/MAI/OOP/Lab_3/include -I/Users/anastasia/MAI/OOP/Lab_3/src -isystem /Users/anastasia/MAI/OOP/Lab_3/googletest/googletest/include -isystem /Users/anastasia/MAI/OOP/Lab_3/googletest/googletest -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -Wall -pedantic -o CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp",
   "file": "/Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp",
   "output": "CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o"

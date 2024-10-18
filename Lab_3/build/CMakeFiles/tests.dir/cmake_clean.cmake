@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o.d"
   "CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o"
   "CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o.d"
+  "CMakeFiles/tests.dir/tests/common_test.cpp.o"
+  "CMakeFiles/tests.dir/tests/common_test.cpp.o.d"
   "CMakeFiles/tests.dir/tests/main_test.cpp.o"
   "CMakeFiles/tests.dir/tests/main_test.cpp.o.d"
   "tests"

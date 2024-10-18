@@ -8,6 +8,12 @@ private:
     std::pair<double, double> vertices[4];
 public:
     Rhombus();
+    Rhombus(const Rhombus& other);
+    Rhombus(Rhombus&& other) noexcept;
+    Rhombus& operator=(const Rhombus& other);
+    Rhombus& operator=(Rhombus&& other) noexcept;
+    bool operator==(const Rhombus& other) const;
+
     double area() const override;
     std::pair<double, double> geometricCenter() const override;
     void print(std::ostream& out) const override;
