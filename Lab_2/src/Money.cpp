@@ -47,12 +47,13 @@ Money::Money(Money&& other) noexcept : data_(other.data_), size_(other.size_) {
 }
 
 Money& Money::operator=(const Money& other) {
-    if (this != &other) {
-        delete[] data_;
-        size_ = other.size_;
-        data_ = new T[size_];
-        std::copy(other.data_, other.data_ + size_, data_);
-    }
+    if (*this == other) return *this;
+        
+    delete[] data_;
+    size_ = other.size_;
+    data_ = new T[size_];
+    std::copy(other.data_, other.data_ + size_, data_);
+
 
     return *this;
 }
