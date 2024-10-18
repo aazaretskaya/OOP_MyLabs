@@ -2,11 +2,10 @@
 #define RHOMBUS_H
 
 #include "Figure.h"
-#include <vector>
 
 class Rhombus : public Figure {
 private:
-    std::vector<std::pair<double, double>> vertices;
+    std::pair<double, double> vertices[4];
 public:
     Rhombus();
     double area() const override;
@@ -19,4 +18,4 @@ public:
     friend std::istream& operator>>(std::istream& os, Rhombus& obj);
 };
 
-#endif 
+#endif

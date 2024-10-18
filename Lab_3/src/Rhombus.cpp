@@ -1,7 +1,12 @@
 #include "../include/Rhombus.h"
 #include <cmath>
 
-Rhombus::Rhombus() : vertices(4) {}
+Rhombus::Rhombus() {
+    // Инициализация массива вершин
+    for (int i = 0; i < 4; ++i) {
+        vertices[i] = {0.0, 0.0};
+    }
+}
 
 double Rhombus::area() const {
     auto [x1, y1] = vertices[0];
@@ -21,7 +26,7 @@ std::pair<double, double> Rhombus::geometricCenter() const {
         x_sum += x;
         y_sum += y;
     }
-    return {x_sum / vertices.size(), y_sum / vertices.size()};
+    return {x_sum / 4, y_sum / 4};
 }
 
 void Rhombus::print(std::ostream& out) const {

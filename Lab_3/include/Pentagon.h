@@ -2,11 +2,10 @@
 #define PENTAGON_H
 
 #include "Figure.h"
-#include <vector>
 
 class Pentagon : public Figure {
 private:
-    std::vector<std::pair<double, double>> vertices;
+    std::pair<double, double> vertices[5];
 public:
     Pentagon();
     double area() const override;
@@ -19,4 +18,4 @@ public:
     friend std::istream& operator>>(std::istream& os, Pentagon& obj);
 };
 
-#endif 
+#endif

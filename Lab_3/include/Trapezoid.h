@@ -2,11 +2,10 @@
 #define TRAPEZOID_H
 
 #include "Figure.h"
-#include <vector>
 
 class Trapezoid : public Figure {
 private:
-    std::vector<std::pair<double, double>> vertices;
+    std::pair<double, double> vertices[4];
 public:
     Trapezoid();
     double area() const override;
@@ -19,4 +18,4 @@ public:
     friend std::istream& operator>>(std::istream& is, Trapezoid& obj);
 };
 
-#endif 
+#endif

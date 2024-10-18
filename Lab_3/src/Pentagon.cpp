@@ -1,13 +1,18 @@
 #include "../include/Pentagon.h"
 #include <cmath>
 
-Pentagon::Pentagon() : vertices(5) {}
+Pentagon::Pentagon() {
+    // Инициализация массива вершин
+    for (int i = 0; i < 5; ++i) {
+        vertices[i] = {0.0, 0.0};
+    }
+}
 
 double Pentagon::area() const {
     double sum = 0;
-    for (size_t i = 0; i < vertices.size(); ++i) {
+    for (int i = 0; i < 5; ++i) {
         auto [x1, y1] = vertices[i];
-        auto [x2, y2] = vertices[(i + 1) % vertices.size()];
+        auto [x2, y2] = vertices[(i + 1) % 5];
         sum += (x1 * y2 - x2 * y1);
     }
     return std::abs(sum) / 2.0;
@@ -19,7 +24,7 @@ std::pair<double, double> Pentagon::geometricCenter() const {
         x_sum += x;
         y_sum += y;
     }
-    return {x_sum / vertices.size(), y_sum / vertices.size()};
+    return {x_sum / 5, y_sum / 5};
 }
 
 void Pentagon::print(std::ostream& out) const {

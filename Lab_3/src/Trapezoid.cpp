@@ -1,7 +1,12 @@
 #include "../include/Trapezoid.h"
 #include <cmath>
 
-Trapezoid::Trapezoid() : vertices(4) {}
+Trapezoid::Trapezoid() {
+    // Инициализация массива вершин
+    for (int i = 0; i < 4; ++i) {
+        vertices[i] = {0.0, 0.0};
+    }
+}
 
 double Trapezoid::area() const {
     auto [x1, y1] = vertices[0];
@@ -22,7 +27,7 @@ std::pair<double, double> Trapezoid::geometricCenter() const {
         x_sum += x;
         y_sum += y;
     }
-    return {x_sum / vertices.size(), y_sum / vertices.size()};
+    return {x_sum / 4, y_sum / 4};
 }
 
 void Trapezoid::print(std::ostream& out) const {
