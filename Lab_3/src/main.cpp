@@ -1,18 +1,18 @@
 #include <iostream>
-#include <vector>
-#include <utility> // Для std::pair
+#include <utility> 
 #include "Pentagon.h"
 #include "Rhombus.h"
 #include "Trapezoid.h"
 
-// Перегрузка оператора << для std::pair<double, double>
 std::ostream& operator<<(std::ostream& os, const std::pair<double, double>& p) {
     os << "(" << p.first << ", " << p.second << ")";
     return os;
 }
 
 int main() {
-    std::vector<Figure*> figures;
+    Figure** figures = nullptr; 
+    int capacity = 0;
+    int size = 0; 
     int choice;
 
     while (true) {
@@ -27,34 +27,64 @@ int main() {
         std::cin >> choice;
 
         if (choice == 1) {
-            Pentagon* pentagon = new Pentagon();
-            std::cin >> *pentagon;
-            figures.push_back(pentagon);
+            if (size == capacity) {
+                capacity = capacity == 0 ? 1 : capacity * 2;
+                Figure** newFigures = new Figure*[capacity];
+                for (int i = 0; i < size; ++i) {
+                    newFigures[i] = figures[i];
+                }
+                delete[] figures;
+                figures = newFigures;
+            }
+            figures[size] = new Pentagon();
+            std::cin >> *dynamic_cast<Pentagon*>(figures[size]);
+            ++size;
         } else if (choice == 2) {
-            Rhombus* rhombus = new Rhombus();
-            std::cin >> *rhombus;
-            figures.push_back(rhombus);
+            if (size == capacity) {
+                capacity = capacity == 0 ? 1 : capacity * 2;
+                Figure** newFigures = new Figure*[capacity];
+                for (int i = 0; i < size; ++i) {
+                    newFigures[i] = figures[i];
+                }
+                delete[] figures;
+                figures = newFigures;
+            }
+            figures[size] = new Rhombus();
+            std::cin >> *dynamic_cast<Rhombus*>(figures[size]);
+            ++size;
         } else if (choice == 3) {
-            Trapezoid* trapezoid = new Trapezoid();
-            std::cin >> *trapezoid;
-            figures.push_back(trapezoid);
+            if (size == capacity) {
+                capacity = capacity == 0 ? 1 : capacity * 2;
+                Figure** newFigures = new Figure*[capacity];
+                for (int i = 0; i < size; ++i) {
+                    newFigures[i] = figures[i];
+                }
+                delete[] figures;
+                figures = newFigures;
+            }
+            figures[size] = new Trapezoid();
+            std::cin >> *dynamic_cast<Trapezoid*>(figures[size]);
+            ++size;
         } else if (choice == 4) {
-            for (const auto& figure : figures) {
-                std::cout << "Area: " << figure->area() << ", Center: " << figure->geometricCenter() << "\n";
+            for (int i = 0; i < size; ++i) {
+                std::cout << "Area: " << figures[i]->area() << ", Center: " << figures[i]->geometricCenter() << "\n";
             }
         } else if (choice == 5) {
             double totalArea = 0;
-            for (const auto& figure : figures) {
-                totalArea += figure->area();
+            for (int i = 0; i < size; ++i) {
+                totalArea += figures[i]->area();
             }
             std::cout << "Total area: " << totalArea << "\n";
         } else if (choice == 6) {
             int index;
             std::cout << "Enter index to delete: ";
             std::cin >> index;
-            if (index >= 0 && index < figures.size()) {
+            if (index >= 0 && index < size) {
                 delete figures[index];
-                figures.erase(figures.begin() + index);
+                for (int i = index; i < size - 1; ++i) {
+                    figures[i] = figures[i + 1];
+                }
+                --size;
             } else {
                 std::cout << "Invalid index\n";
             }
@@ -65,9 +95,10 @@ int main() {
         }
     }
 
-    for (auto& figure : figures) {
-        delete figure;
+    for (int i = 0; i < size; ++i) {
+        delete figures[i];
     }
+    delete[] figures;
 
     return 0;
 }

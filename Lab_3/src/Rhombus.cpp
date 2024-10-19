@@ -52,11 +52,9 @@ double Rhombus::area() const {
     auto [x3, y3] = vertices[2];
     auto [x4, y4] = vertices[3];
 
-    // Вычисляем длины диагоналей
     double d1 = std::sqrt((x1 - x3) * (x1 - x3) + (y1 - y3) * (y1 - y3));
     double d2 = std::sqrt((x2 - x4) * (x2 - x4) + (y2 - y4) * (y2 - y4));
 
-    // Площадь ромба
     return (d1 * d2) / 2.0;
 }
 
