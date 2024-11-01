@@ -73,113 +73,113 @@ CMakeFiles/tests.dir/tests/main_test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/main_test.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/tests/main_test.cpp
 CMakeFiles/tests.dir/tests/main_test.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests.dir/tests/main_test.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/main_test.cpp.o -MF CMakeFiles/tests.dir/tests/main_test.cpp.o.d -o CMakeFiles/tests.dir/tests/main_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/main_test.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/main_test.cpp.o -MF CMakeFiles/tests.dir/tests/main_test.cpp.o.d -o CMakeFiles/tests.dir/tests/main_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/main_test.cpp
 
 CMakeFiles/tests.dir/tests/main_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/main_test.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/main_test.cpp > CMakeFiles/tests.dir/tests/main_test.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/main_test.cpp > CMakeFiles/tests.dir/tests/main_test.cpp.i
 
 CMakeFiles/tests.dir/tests/main_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/main_test.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/main_test.cpp -o CMakeFiles/tests.dir/tests/main_test.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/main_test.cpp -o CMakeFiles/tests.dir/tests/main_test.cpp.s
 
 CMakeFiles/tests.dir/tests/common_test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/common_test.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp
 CMakeFiles/tests.dir/tests/common_test.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/tests/common_test.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/common_test.cpp.o -MF CMakeFiles/tests.dir/tests/common_test.cpp.o.d -o CMakeFiles/tests.dir/tests/common_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/common_test.cpp.o -MF CMakeFiles/tests.dir/tests/common_test.cpp.o.d -o CMakeFiles/tests.dir/tests/common_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp
 
 CMakeFiles/tests.dir/tests/common_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/common_test.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp > CMakeFiles/tests.dir/tests/common_test.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp > CMakeFiles/tests.dir/tests/common_test.cpp.i
 
 CMakeFiles/tests.dir/tests/common_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/common_test.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp -o CMakeFiles/tests.dir/tests/common_test.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/common_test.cpp -o CMakeFiles/tests.dir/tests/common_test.cpp.s
 
 CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp
 CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o -MF CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o.d -o CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o -MF CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o.d -o CMakeFiles/tests.dir/tests/Pentagon_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp
 
 CMakeFiles/tests.dir/tests/Pentagon_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/Pentagon_test.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp > CMakeFiles/tests.dir/tests/Pentagon_test.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp > CMakeFiles/tests.dir/tests/Pentagon_test.cpp.i
 
 CMakeFiles/tests.dir/tests/Pentagon_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/Pentagon_test.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp -o CMakeFiles/tests.dir/tests/Pentagon_test.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/Pentagon_test.cpp -o CMakeFiles/tests.dir/tests/Pentagon_test.cpp.s
 
 CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/tests/Rhombus_test.cpp
 CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o -MF CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o.d -o CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/Rhombus_test.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o -MF CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o.d -o CMakeFiles/tests.dir/tests/Rhombus_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/Rhombus_test.cpp
 
 CMakeFiles/tests.dir/tests/Rhombus_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/Rhombus_test.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/Rhombus_test.cpp > CMakeFiles/tests.dir/tests/Rhombus_test.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/Rhombus_test.cpp > CMakeFiles/tests.dir/tests/Rhombus_test.cpp.i
 
 CMakeFiles/tests.dir/tests/Rhombus_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/Rhombus_test.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/Rhombus_test.cpp -o CMakeFiles/tests.dir/tests/Rhombus_test.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/Rhombus_test.cpp -o CMakeFiles/tests.dir/tests/Rhombus_test.cpp.s
 
 CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/tests/Trapezoid_test.cpp
 CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o -MF CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o.d -o CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/Trapezoid_test.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o -MF CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o.d -o CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/tests/Trapezoid_test.cpp
 
 CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/Trapezoid_test.cpp > CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/tests/Trapezoid_test.cpp > CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.i
 
 CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/Trapezoid_test.cpp -o CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/tests/Trapezoid_test.cpp -o CMakeFiles/tests.dir/tests/Trapezoid_test.cpp.s
 
 CMakeFiles/tests.dir/src/Trapezoid.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/Trapezoid.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/src/Trapezoid.cpp
 CMakeFiles/tests.dir/src/Trapezoid.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests.dir/src/Trapezoid.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Trapezoid.cpp.o -MF CMakeFiles/tests.dir/src/Trapezoid.cpp.o.d -o CMakeFiles/tests.dir/src/Trapezoid.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/src/Trapezoid.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Trapezoid.cpp.o -MF CMakeFiles/tests.dir/src/Trapezoid.cpp.o.d -o CMakeFiles/tests.dir/src/Trapezoid.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/src/Trapezoid.cpp
 
 CMakeFiles/tests.dir/src/Trapezoid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/Trapezoid.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/src/Trapezoid.cpp > CMakeFiles/tests.dir/src/Trapezoid.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/src/Trapezoid.cpp > CMakeFiles/tests.dir/src/Trapezoid.cpp.i
 
 CMakeFiles/tests.dir/src/Trapezoid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/Trapezoid.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/src/Trapezoid.cpp -o CMakeFiles/tests.dir/src/Trapezoid.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/src/Trapezoid.cpp -o CMakeFiles/tests.dir/src/Trapezoid.cpp.s
 
 CMakeFiles/tests.dir/src/Rhombus.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/Rhombus.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/src/Rhombus.cpp
 CMakeFiles/tests.dir/src/Rhombus.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tests.dir/src/Rhombus.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Rhombus.cpp.o -MF CMakeFiles/tests.dir/src/Rhombus.cpp.o.d -o CMakeFiles/tests.dir/src/Rhombus.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/src/Rhombus.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Rhombus.cpp.o -MF CMakeFiles/tests.dir/src/Rhombus.cpp.o.d -o CMakeFiles/tests.dir/src/Rhombus.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/src/Rhombus.cpp
 
 CMakeFiles/tests.dir/src/Rhombus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/Rhombus.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/src/Rhombus.cpp > CMakeFiles/tests.dir/src/Rhombus.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/src/Rhombus.cpp > CMakeFiles/tests.dir/src/Rhombus.cpp.i
 
 CMakeFiles/tests.dir/src/Rhombus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/Rhombus.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/src/Rhombus.cpp -o CMakeFiles/tests.dir/src/Rhombus.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/src/Rhombus.cpp -o CMakeFiles/tests.dir/src/Rhombus.cpp.s
 
 CMakeFiles/tests.dir/src/Pentagon.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/Pentagon.cpp.o: /Users/anastasia/MAI/OOP/Lab_3/src/Pentagon.cpp
 CMakeFiles/tests.dir/src/Pentagon.cpp.o: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anastasia/MAI/OOP/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tests.dir/src/Pentagon.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Pentagon.cpp.o -MF CMakeFiles/tests.dir/src/Pentagon.cpp.o.d -o CMakeFiles/tests.dir/src/Pentagon.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/src/Pentagon.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/src/Pentagon.cpp.o -MF CMakeFiles/tests.dir/src/Pentagon.cpp.o.d -o CMakeFiles/tests.dir/src/Pentagon.cpp.o -c /Users/anastasia/MAI/OOP/Lab_3/src/Pentagon.cpp
 
 CMakeFiles/tests.dir/src/Pentagon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/Pentagon.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/src/Pentagon.cpp > CMakeFiles/tests.dir/src/Pentagon.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anastasia/MAI/OOP/Lab_3/src/Pentagon.cpp > CMakeFiles/tests.dir/src/Pentagon.cpp.i
 
 CMakeFiles/tests.dir/src/Pentagon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/Pentagon.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/src/Pentagon.cpp -o CMakeFiles/tests.dir/src/Pentagon.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anastasia/MAI/OOP/Lab_3/src/Pentagon.cpp -o CMakeFiles/tests.dir/src/Pentagon.cpp.s
 
 # Object files for target tests
 tests_OBJECTS = \
