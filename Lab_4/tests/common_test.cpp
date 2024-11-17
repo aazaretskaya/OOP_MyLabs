@@ -16,13 +16,13 @@ TEST(MainTest, AddFigure) {
     int figureCount = 0;
     std::istringstream input("0 0 1 1 2 0 1 -1");
     auto rhombus = std::make_unique<Rhombus<double>>();
-    double expectedArea = 2.0;
+    double expected_Area = 2.0;
 
     input >> *rhombus;
     figures[figureCount++] = std::move(rhombus);
 
     ASSERT_EQ(figureCount, 1);
-    EXPECT_NEAR(figures[0]->area(), expectedArea, 1e-6);
+    EXPECT_NEAR(figures[0]->area(), expected_Area, 1e-6);
 }
 
 TEST(MainTest, CalculateTotalArea) {
