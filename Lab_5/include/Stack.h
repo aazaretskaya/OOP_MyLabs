@@ -19,12 +19,10 @@ public:
     T& top();
     bool empty() const;
 
-    // Добавляем метод для получения указателя на вершину стека
     Node<T>* top_node() {
         return head;
     }
 
-    // Дружественный доступ для StackIterator
     template<typename U, typename A>
     friend class StackIterator;
 
@@ -33,4 +31,4 @@ private:
     Allocator allocator_;
 };
 
-#endif // STACK_H
+#endif 

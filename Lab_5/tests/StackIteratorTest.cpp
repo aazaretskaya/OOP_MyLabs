@@ -10,7 +10,6 @@ TEST(StackIteratorTest, IterateThroughStack) {
     stack.push(2);
     stack.push(3);
 
-    // Используем указатель на вершину стека
     StackIterator<int, std::pmr::polymorphic_allocator<int>> it(stack.top_node());
     int expectedValues[] = {3, 2, 1};
     int index = 0;
@@ -28,7 +27,6 @@ TEST(StackIteratorTest, CompareIterators) {
     stack.push(1);
     stack.push(2);
 
-    // Используем указатель на вершину стека
     StackIterator<int, std::pmr::polymorphic_allocator<int>> it1(stack.top_node());
     StackIterator<int, std::pmr::polymorphic_allocator<int>> it2(stack.top_node());
     StackIterator<int, std::pmr::polymorphic_allocator<int>> it3(stack.top_node()->next);

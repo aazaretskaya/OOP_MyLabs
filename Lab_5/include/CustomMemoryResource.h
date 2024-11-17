@@ -18,4 +18,4 @@ private:
     std::map<void*, std::size_t> allocated_blocks;
 };
 
-#endif // CUSTOMMEMORYRESOURCE_H
+#endif
